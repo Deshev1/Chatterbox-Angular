@@ -1,14 +1,13 @@
 import { Component } from '@angular/core';
-import { Header } from '../header/header.component';
-import { Button } from '../../../shared/components/button/button.component';
-import { ButtonConfig } from '../../../shared/models/button.model';
+import { Header } from './header/header.component';
+import { Button } from '../../shared/components/button/button.component';
+import { ButtonConfig } from '../../shared/models/button.model';
 
 @Component({
   selector: 'app-home',
   imports: [Header, Button],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
-  standalone: true,
 })
 export class Home {
   joinBtnConfig: ButtonConfig = {

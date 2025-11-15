@@ -1,0 +1,28 @@
+<div class="home-container">
+    <app-header></app-header>
+    <div class="home-content">
+        <div class="info-container">
+            <h1>The new oldschool direct & group chat</h1>
+            <p>
+                We built this chat for all of you that wish to stay connected with
+                no additional hassle. Simply create an account, add friends and
+                chat away. Have a whole team behind you? We got you. Simply create
+                a team and chat with all your friends together!
+            </p>
+            <div class="btns-container">
+                <app-button [btnConfig]="joinBtnConfig" />
+                <app-button [btnConfig]="loginBtnConfig" />
+            </div>
+        </div>
+        <div class="stats-container">
+            <div class="stat-container">
+                <p>{{userCount}}</p>
+                <p>users</p>
+            </div>
+            <div class="stat-container">
+                <p>{{teamCount}}</p>
+                <p>channels</p>
+            </div>
+        </div>
+    </div>
+</div>
