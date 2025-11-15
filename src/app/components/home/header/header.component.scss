@@ -1,25 +1,25 @@
+@use "../../../styles/variables.scss" as *;
+
 .header {
-  background-color: rgba(0, 128, 0, 0.682);
+  background-color: $primary-color;
   width: 100%;
-  height: 80px;
+  height: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  top: 0;
-  position: fixed;
-  padding: 0 30px;
+  padding: 0 1.875rem;
 }
 
 nav {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 1.875rem;
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   transition: color 0.3s ease;
 }
@@ -30,14 +30,14 @@ nav a:hover {
 
 .logo {
   background: url("../../../../../assets/images/chatterbox-logo-nobackground-white.svg");
-  height: 50px;
-  width: 50px;
+  height: 3.125rem;
+  width: 3.125rem;
 }
 
 .logo-container {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 0.9375rem;
   text-decoration: none;
 }
 

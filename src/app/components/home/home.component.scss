@@ -4,17 +4,17 @@
 }
 
 .home-content {
-  margin: 80px auto 0 auto;
-  width: 1200px;
-  height: calc(100vh - 80px);
-  padding: 60px;
+  margin: auto;
+  width: 75rem;
+  height: calc(100vh - 5rem);
+  padding: 3.75rem;
   display: flex;
   align-items: center;
-  gap: 60px;
+  gap: 3.75rem;
 }
 
 .info-container {
-  width: 800px;
+  width: 50rem;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -24,13 +24,13 @@
 
 h1 {
   font-family: "Madimi One", sans-serif;
-  font-size: 80px;
+  font-size: 5rem;
   text-transform: uppercase;
-  line-height: 62px;
+  line-height: 3.875rem;
 }
 
 .stats-container {
-  width: 310px;
+  width: 19.375rem;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -39,9 +39,9 @@ h1 {
 }
 
 .stat-container {
-  width: 180px;
-  height: 180px;
-  border-radius: 100px;
+  width: 11.25rem;
+  height: 11.25rem;
+  border-radius: 6.25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,7 +51,7 @@ h1 {
 
 .btns-container {
   display: flex;
-  gap: 15px;
+  gap: 0.9375rem;
 }
 
 .stat-container p {
