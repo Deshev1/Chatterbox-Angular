@@ -7,6 +7,6 @@ import { ButtonConfig } from '../../models/button.model';
   templateUrl: './button.component.html',
   styleUrl: './button.component.scss',
 })
-export class Button {
+export class ButtonComponent {
   btnConfig = input.required<ButtonConfig>();
 }
