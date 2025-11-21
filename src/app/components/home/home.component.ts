@@ -1,27 +1,31 @@
 import { Component } from '@angular/core';
-import { Header } from './header/header.component';
-import { Button } from '../../shared/components/button/button.component';
+import { HeaderComponent } from './header/header.component';
+import { ButtonComponent } from '../../shared/components/button/button.component';
 import { ButtonConfig } from '../../shared/models/button.model';
 
 @Component({
   selector: 'app-home',
-  imports: [Header, Button],
+  imports: [HeaderComponent, ButtonComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
-export class Home {
+export class HomeComponent {
   joinBtnConfig: ButtonConfig = {
     label: 'Join us!',
     class: 'register-btn',
-    handleClick: () => {},
+    handleClick: () => {
+      console.info('clicked');
+    },
   };
 
   loginBtnConfig: ButtonConfig = {
     label: 'Log in',
     class: 'login-btn',
-    handleClick: () => {},
+    handleClick: () => {
+      console.info('clicked');
+    },
   };
 
-  userCount: number = 4;
-  teamCount: number = 1;
+  userCount = 4;
+  teamCount = 1;
 }
