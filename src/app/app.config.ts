@@ -15,6 +15,6 @@ export const appConfig: ApplicationConfig = {
     provideZonelessChangeDetection(),
     provideRouter(routes),
     provideStore(),
-    provideEffects()
-],
+    provideEffects(),
+  ],
 };
